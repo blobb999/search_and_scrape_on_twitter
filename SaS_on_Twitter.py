@@ -8,7 +8,7 @@
 #The tool also includes a function to open the link in a web browser. The GUI is built with the tkinter library.
 #
 #to compile it in one file do:
-#pyinstaller --onefile --hidden-import snscrape.modules SAS_on_Twitter.py
+#pyinstaller --onefile --hidden-import snscrape.modules SaS_on_Twitter.py
 #
 import tkinter as tk
 import snscrape.modules
