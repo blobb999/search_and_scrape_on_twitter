@@ -11,6 +11,7 @@
 #pyinstaller --onefile --hidden-import snscrape.modules SAS_on_Twitter.py
 #
 import tkinter as tk
+import snscrape.modules
 import snscrape.modules.twitter as sntwitter
 import pandas as pd
 import webbrowser
