@@ -8,7 +8,8 @@
 #The tool also includes a function to open the link in a web browser. The GUI is built with the tkinter library.
 #
 #to compile it in one file do:
-#pip install pyinstaller==4.5.1
+#pip install pyinstaller==4.5.1 using Python up to version 3.10.x. 
+#According to the PyInstaller documentation, support for Python 3.11 is currently experimental and may not work correctly.
 #pyinstaller --onefile --hidden-import snscrape.modules SaS_on_Twitter.py
 #
 import tkinter as tk
